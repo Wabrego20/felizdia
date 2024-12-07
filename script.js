@@ -20,7 +20,7 @@ function createSnowflake() {
     const snowflake = document.createElement('div');
     snowflake.classList.add('snowflake');
     snowflake.innerHTML = '❄';
-    snowflake.style.left = Math.random() * window.innerWidth * 0.99 + 'px';
+    snowflake.style.left = Math.random() * window.innerWidth * 0.95 + 'px';
     snowflake.style.animationDuration = Math.random() * 10 + 2 + 's';
     snowflake.style.opacity = Math.random();
     snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
