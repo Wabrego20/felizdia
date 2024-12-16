@@ -13,6 +13,7 @@ body{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 header{
     display: flex;
@@ -31,11 +32,14 @@ header{
     width: 150px;
 }
 .__mom{
-    position: absolute;
+    position: fixed;
     z-index: -1;
     height: 100%;
     width: 100%;
-    
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
 }
 main{
     width: 100%;
@@ -56,6 +60,10 @@ main{
     align-items: center;
     margin: 15px auto;
     background-color: var(--blanco);
+    h3{
+        
+        text-align: justify;
+    }
     h5{
         margin: 5px auto;
     }
@@ -63,9 +71,13 @@ main{
         cursor: pointer;
         text-decoration: underline;
     }
+    h2{
+        font-family: cursive;
+        color: rgb(10, 13, 81);
+    }
 }
 .__login{
-    width: 350px;
+    width: 450px;
     h2,h3{
         width: 95%;
         margin: 5px auto;
@@ -137,7 +149,7 @@ footer{
 .snowflake {
     position: absolute;
     top: -1px;
-    color: var(--primario);
+    color: green;
     font-size: 1em;
     user-select: none;
     pointer-events: none;

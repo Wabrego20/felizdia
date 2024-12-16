@@ -19,17 +19,17 @@ function ver() {
 function createSnowflake() {
     const snowflake = document.createElement('div');
     snowflake.classList.add('snowflake');
-    snowflake.innerHTML = '❄';
+    snowflake.innerHTML = '$';
     snowflake.style.left = Math.random() * window.innerWidth * 0.99 + 'px';
     snowflake.style.animationDuration = Math.random() * 10 + 2 + 's';
     snowflake.style.opacity = Math.random();
-    snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
+    snowflake.style.fontSize = Math.random() * 70 + 10 + 'px';
     document.body.appendChild(snowflake);
 
     // Eliminar el copo de nieve después de que termine la animación
     setTimeout(() => {
         snowflake.remove();
-    }, parseFloat(snowflake.style.animationDuration) * 950);
+    }, parseFloat(snowflake.style.animationDuration) * 900);
 }
 
 // Crear copos de nieve a intervalos regulares
