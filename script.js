@@ -19,8 +19,13 @@ function ver() {
 function createSnowflake() {
     const snowflake = document.createElement('div');
     snowflake.classList.add('snowflake');
+<<<<<<< HEAD
     snowflake.innerHTML = '$';
     snowflake.style.left = Math.random() * window.innerWidth * 0.99 + 'px';
+=======
+    snowflake.innerHTML = '❄';
+    snowflake.style.left = Math.random() * window.innerWidth * 0.95 + 'px';
+>>>>>>> fdd95492a35618709ca89c37f9c289500412a2af
     snowflake.style.animationDuration = Math.random() * 10 + 2 + 's';
     snowflake.style.opacity = Math.random();
     snowflake.style.fontSize = Math.random() * 70 + 10 + 'px';

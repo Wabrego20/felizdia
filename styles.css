@@ -5,7 +5,7 @@
 }
 :root{
     --primario:rgb(0,63,108);
-    --blanco:#ffffffac;
+    --blanco:#ffffffc4;
 }
 body{
     display: flex;
@@ -23,6 +23,13 @@ header{
     width: 100%;
     box-shadow: 0 0 5px var(--primario);
     background-color: var(--blanco);
+    h2{
+        font-family: cursive;
+        color: rgb(6, 233, 18);
+        font-weight: bold;
+        font-style: oblique;
+        margin-right: 10px;
+    }
 }
 .logo{
     margin: 10px;
@@ -101,7 +108,9 @@ main{
 }
 .input{
     width: 100%;
-    height: 35px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .__txt{
     border: 1px solid var(--primario);
@@ -124,6 +133,9 @@ main{
 }
 .__submit:hover{
     cursor: pointer;
+    box-shadow: inset 0 0 10px var(--primario);
+}
+.__submit:active{
     box-shadow: inset 0 0 10px var(--primario);
 }
 
