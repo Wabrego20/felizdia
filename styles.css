@@ -23,9 +23,9 @@ header{
     width: 100%;
     box-shadow: 0 0 5px var(--primario);
     background-color: var(--blanco);
-    h2{
+    h1{
         font-family: cursive;
-        color: rgb(6, 233, 18);
+        color: rgb(21, 6, 233);
         font-weight: bold;
         font-style: oblique;
         margin-right: 10px;
