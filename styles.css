@@ -25,7 +25,7 @@ header{
     background-color: var(--blanco);
     h1{
         font-family: cursive;
-        color: rgb(21, 6, 233);
+        color: #bd8f1c;
         font-weight: bold;
         font-style: oblique;
         margin-right: 10px;
